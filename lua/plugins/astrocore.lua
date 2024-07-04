@@ -33,6 +33,8 @@ return {
         signcolumn = "yes", -- sets vim.opt.signcolumn to yes
         wrap = false, -- sets vim.opt.wrap
         showtabline = 0, -- hide tabline
+        scrolloff = 5, -- scrolloff
+        sidescrolloff = 5,
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
