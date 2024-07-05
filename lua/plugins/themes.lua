@@ -6,4 +6,10 @@ return {
   },
   { "zenbones-theme/zenbones.nvim", dependencies = { "rktjmp/lush.nvim" } },
   { "navarasu/onedark.nvim" },
+  {
+    "folke/tokyonight.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
+  },
 }
