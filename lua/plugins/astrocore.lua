@@ -6,6 +6,7 @@
 --       as this provides autocomplete and documentation while editing
 
 ---@type LazySpec
+
 return {
   "AstroNvim/astrocore",
   ---@type AstroCoreOpts
@@ -63,6 +64,7 @@ return {
           desc = "Close buffer from tabline",
         },
 
+        ["<Leader>m"] = { desc = "myKeys" },
         -- tables with just a `desc` key will be registered with which-key if it's installed
         -- this is useful for naming menus
         -- ["<Leader>b"] = { desc = "Buffers" },

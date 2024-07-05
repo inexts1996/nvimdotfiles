@@ -26,7 +26,7 @@ return {
     { "nvim-lua/plenary.nvim" }, -- for curl, log wrapper
   },
   opts = {
-    debug = true, -- Enable debugging
+    debug = false, -- Enable debugging
     -- See Configuration section for rest
     question_header = "## User ",
     answer_header = "## Copilot ",
